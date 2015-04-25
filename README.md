@@ -1,5 +1,6 @@
 # pickit2eeprom
 Programming large EEPROM of 25 series via PICkit2
+
 (25C often uses as BIOS flash)
 
 Copyright (C) 2015 Alexey Kuznetsov
@@ -22,16 +23,23 @@ or see <http://www.gnu.org/licenses/>
  USAGE:
 
 Read:	-r <file_name> <size>[K|M]
+
 Prog:	-p <file_name>
+
 Erase:	-e
 
  CONNECTING:
   
 PICkit2 Pin   25C Device Pin (DIP/SO8)
-(1) VPP ----> 1 nCS
-(2) Vdd ----> 8 Vcc, 3 nWP, 7 nHOLD
-(3) GND ----> 4 Vss
-(4) PGD ----> 2 SO
-(5) PGC ----> 6 SCK
-(6) AUX ----> 5 SI
 
+(1) VPP ----> 1 nCS
+
+(2) Vdd ----> 8 Vcc, 3 nWP, 7 nHOLD
+
+(3) GND ----> 4 Vss
+
+(4) PGD ----> 2 SO
+
+(5) PGC ----> 6 SCK
+
+(6) AUX ----> 5 SI
