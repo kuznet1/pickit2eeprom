@@ -1,5 +1,5 @@
 /*
- * Pickit2eeprom - tiny tool for program big EEPROMs of 25C series by PICkit2.
+ * Pickit2eeprom - a tiny tool for program big EEPROMs of 25C series by PICkit2.
  * (25C often uses as BIOS flash)
  *
  * Copyright (C) 2015 Alexey Kuznetsov
