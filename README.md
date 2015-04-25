@@ -34,4 +34,4 @@ PICkit2 Pin   25C Device Pin (DIP/SO8)
 (4) PGD ----> 2 SO
 (5) PGC ----> 6 SCK
 (6) AUX ----> 5 SI
-g
+
